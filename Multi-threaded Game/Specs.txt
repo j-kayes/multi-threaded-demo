@@ -1,0 +1,5 @@
+CPU: 64-bit ADM FX-6300 6core underclocked to 1.81ghz
+L1: 288kb
+L2: 6.0MB
+L3: 8MB
+8GB of ram
