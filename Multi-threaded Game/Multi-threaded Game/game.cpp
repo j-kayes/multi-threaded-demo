@@ -6,7 +6,7 @@
 #include "game.h"
 
 #define WORKER_THREADS 5 // Number of extra worker threads (Total threads = workers + main thread).
-#COPYWRITE JAMES S KAYES 
+//COPYWRITE JAMES S KAYES 
 
 Game::Game() : window(sf::VideoMode(936, 720), "Multi-threaded Tower Defence Demo", sf::Style::Close), start_node(nullptr), end_node(nullptr), start_selected(false), end_selected(false),
 	path_found(false), path_length(0), start_x(0), start_y(9), end_x(25), end_y(9), tank_spawn_timer(kTankInitialSpawnTime), health(kInitialHealth), money(kInitialMoney)
